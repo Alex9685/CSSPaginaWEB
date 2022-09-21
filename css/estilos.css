@@ -1,0 +1,94 @@
+/* Selector Unversal */
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+
+}
+
+/* Selector de id*/
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background-color: rgb(112, 214, 166);
+    max-width: 0 auto;
+}
+
+#encabezado{
+
+    height: 15%;
+    background-color: aquamarine;
+    margin: 1em auto;
+}
+
+#menuOp{
+    
+    height: 5%;
+    background-color: rgb(194, 236, 224);
+    margin: 1em auto;
+}
+
+#seccion{
+    height: 70%;
+    width: 61%;
+    background-color: rgb(166, 245, 196);
+    margin: 0.5em auto;
+    float: left;
+}
+
+#fueraSeccion{
+    height: 70%;
+    width: 36%;
+    background-color: aliceblue;
+    margin: 0.5em;
+    float: right;
+}
+
+#pie{
+    height: 5%;
+    background-color: rgb(159, 65, 247);
+    border-radius: 1em;
+    margin: 1.5 em;
+}
+
+/* Selector de clase */
+.texto{
+    text-align: justify;
+    font-family: Tahoma;
+    font-size: medium;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.encabezado{
+    text-align: center;
+}
+
+.encabezado_articulo{
+    text-align: center;
+    background: #333;
+    color: azure;
+    margin: auto 2em;
+    margin-top: 30px;
+}
+
+.imagenes{
+    display: block;
+    border: 1px solid #ddd;
+    margin-left: 4%;
+    width: 150px;
+    margin-top: 15px;
+}
+
+/* Selector de etiqueta */
+
+ul{
+    text-align: center;
+
+}
+
+li{
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+
+}

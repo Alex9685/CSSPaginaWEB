@@ -5,36 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica II</title>
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
+<div id="contenedor">
 <body>
-    <header>
-        <h1> Mi Pagina</h1>
-    </header>
+    <div id="encabezado">
+        <header>
+            <h1> La salvaguarda de la naturaleza</h1>
+        </header>
+    </div>
 
-    <nav>
-        <h3>Menu </h3>
-    </nav>
-
-    <section>
-        <article>
-            <h3> Articulo 1</h3>
-        </article>
-
-        <article>
-            <h3> Articulo 2</h3>
-        </article>
-
-    </section>
-
-    <aside>
+    <div id="menuOp">
         <nav>
-            <h4>Menu </h4>
+            <ul>
+                <li><a href="www.gmail.com">Mi correo</a></li>
+                <li><a href="www.noticias.com">Noticias</a></li>
+                <li><a href="www.elclima.com">El clima</a></li>
+            </ul>
         </nav>
+    </div>
 
-    </aside>
+    <div id="seccion">
+        <section>
 
-    <footer>
-        <h6>Pie de Pagina</h6>
-    </footer>
+            <div id="articulo 1">
+                <article>
+                    <h3 class="encabezado_articulo" > Los ajolotes son valiosos</h3>
+                    <p class="texto">
+                        Su importancia en el ecosistema se vincula fundamentalmente con su papel en la red trófica. 
+                        Por una parte, son depredadores de una gran cantidad de invertebrados, como insectos y arácnidos, 
+                        y por otra, son presa o alimento de otros animales, como mamíferos, aves, reptiles, peces e incluso insectos y arañas.
+                    </p>
+
+                </article>
+                <picture>
+                    <img  class="imagenes" src="/img/ajolote1.jpg" alt="La complejidad de los ajolotes">
+                </picture>
+            </div>
+
+            <div id="articulo 2">
+                <article>
+                    <h3 class="encabezado_articulo" > La hermosura de los ajolotes :D</h3>
+                    <p class="texto">
+                        En cautividad se crían axolotes de varios colores. La forma silvestre es marrón con puntos negros y amarillos brillantes. 
+                        También se encuentran ejemplares negros, blancos, amarillos, blancos con branquias rojas y otras variaciones. 
+                        Su tamaño alcanza entre 25 y 30 cm, dependiendo de la calidad del ambiente en el que vivan. 
+                        Las hembras son más grandes y robustas y tienen la cabeza más redondeada que los machos.
+                    </p>
+                </article>
+                <picture>
+                    <img class="imagenes" src="/img/ajolote2.webp" alt="La inmensa varidad de ajolotes">
+                </picture>
+            
+            <!-- fecha en la que se publicó el articulo -->
+            <time datetime="2022-09-21">
+
+            </time>
+            <small style="display: block; margin-left: 3em;"> Fué publicado el 21 de Sep. del 2022 </small>
+            </div>
+
+        </section>
+    </div>
+    <div id="fueraSeccion">
+        <aside>
+            <nav>
+                <h4>Menu </h4>
+                
+            </nav>
+
+        </aside>
+    </div>
+    </div>
+    <div id="pie">
+        <footer>
+            <h6>Pie de Pagina</h6>
+        </footer>
+    </div>
 </body>
 </html>
