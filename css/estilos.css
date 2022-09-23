@@ -9,28 +9,28 @@
 #contenedor{
     width: 1200px;
     height: 1000px;
-    background-color: rgb(112, 214, 166);
+    background-color: #FECEA8;
     max-width: 0 auto;
 }
 
 #encabezado{
 
     height: 15%;
-    background-color: aquamarine;
+    background-color: #99B898;
     margin: 1em auto;
 }
 
 #menuOp{
     
     height: 5%;
-    background-color: rgb(194, 236, 224);
+    background-color: rgb(241, 186, 123);
     margin: 1em auto;
 }
 
 #seccion{
     height: 70%;
     width: 61%;
-    background-color: rgb(166, 245, 196);
+    background-color: #FF847C;
     margin: 0.5em auto;
     float: left;
 }
@@ -38,16 +38,35 @@
 #fueraSeccion{
     height: 70%;
     width: 36%;
-    background-color: aliceblue;
+    background-color: #FF847C;
     margin: 0.5em;
     float: right;
 }
 
 #pie{
-    height: 5%;
-    background-color: rgb(159, 65, 247);
+    height: 10%;
+    width: 1200px;
+    background-color: #2A363B;
     border-radius: 1em;
     margin: 1.5 em;
+    color: #ddd;
+    text-align: center;
+}
+#fecha{
+    color: rgb(53, 6, 75);
+    margin-top: 10px;
+}
+#menu2{
+    margin-top: 5px;
+}
+#a1{
+    margin-top: 8px;
+}
+#a2{
+    margin-top: 8px;
+}
+#a3{
+    margin-top: 8px;
 }
 
 /* Selector de clase */
